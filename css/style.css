@@ -1,0 +1,172 @@
+/* Global style-------
+-----------*/
+/* #2B2D42---Dark blue
+   #8D99AE---light blue
+   #EDF2F4---blue/white
+   #EF233C---red  */
+   html {
+       box-sizing: border-box;
+       
+   }
+   *,*:before,*:after {
+       box-sizing: inherit;
+   }
+   .col-narrow {
+    width: 30%;
+    float: left;
+   }
+   .col-wide {
+    width: 70%;
+    float: left;
+    padding: 20px;
+   }
+   .btn {
+       background: white;
+       text-decoration: none;
+       color: yellowgreen;
+       padding: 10px;
+       display: inline-block;}
+    .download {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+   
+
+body { 
+   /* font-family: 'Open Sans', sans-serif;
+    text-align: left;*/
+    margin: 0;
+    
+}
+
+img {
+    border-radius: 50%;
+    }
+
+.content-wrap {
+   max-width: 900px; 
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+.contact-info a {
+    background: chartreuse;
+    margin: 20px;
+    padding: 10px;
+}
+
+h1,h2 {
+    /*font-family: 'Festive', cursive;*/
+    margin: 0;
+}
+h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+h2 {
+    font-size: 35px;
+    *margin-top:0 ;
+    margin:0;
+}
+h3 {
+    margin: 0;
+}
+a {
+    color: red;
+    display: inline-block;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    text-decoration: greenyellow;
+}
+.uppercase {
+    text-transform: uppercase;
+    font-size: 0.90em;
+}
+/* for adding fonts Fonts---------
+@font-face {}
+
+/* Header and Footer-------
+-----------*/
+header,footer {
+    background:#2B2D42 ;
+    color:#8D99AE ;
+}
+header h1, header h2 {
+    color: gold;
+}
+/*header-----
+*/
+header {
+    position:relative;
+}
+.display{
+    text-align: center;
+    padding: 30px;
+}
+
+
+/*foooter-------
+------*/
+footer {
+    text-align: center;
+    
+    
+}
+/* navigation-----
+---------*/
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    width: 100%;
+}
+nav a {
+    padding: 10px 20px;
+    display: inline-block;
+    background:lightgreen;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* Work Experience-------
+-----------*/
+.workexperience {
+    background:#8D99AE ;
+    
+    
+}
+h2~h3 {
+    margin: 0;
+}
+p {
+    line-height: 2;
+}
+h3~p {
+    margin: 0;
+}
+.job-description p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Education-------
+-----------*/
+.education {
+    background:#EDF2F4 ;
+   /* font-size: none;
+    height: none;
+    width: none;
+    margin: none;
+    border: none;
+    border-style: solid;
+    border-color: greenyellow;
+    padding: none;*/
+}
+p + h3 {
+    margin-top: 10px;
+    
+} 
